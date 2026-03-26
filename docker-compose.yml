@@ -5,8 +5,8 @@ services:
     image: postgis/postgis:15-3.3
     container_name: geovlog_db
     environment:
-      POSTGRES_USER: geovlog_user
-      POSTGRES_PASSWORD: supersecretpassword
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: geovlog
     ports:
       - "5432:5432"
